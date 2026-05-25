@@ -3,10 +3,6 @@ from datetime import date
 if __name__ == '__main__':
     print('welcome to hana\'s homework tracker!')
 
-    response = input('enter the due date for this homework assignment (yyyy mm dd): ')
-    result = response.split()
-    due = date(int(result[0]), int(result[1]), int(result[2]))
-
     homework = []
 
     while True:
